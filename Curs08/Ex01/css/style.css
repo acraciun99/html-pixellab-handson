@@ -1,0 +1,13 @@
+h1{
+  text-decoration: underline;
+  color: red;
+}
+p{
+  color: gray;
+
+}
+
+ol.li   {
+  color: green;
+  text-decoration:line-through ;
+}
