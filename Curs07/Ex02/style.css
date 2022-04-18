@@ -20,6 +20,19 @@ b{
   color: purple;
 }
 
-#line.odd{
+.odd span{
   color: blue;
+}
+
+.odd i{
+  text-decoration: underline;
+}
+
+a[href^="http://"]{
+  color: red;
+}
+
+a[href$=".com"]{
+color: black;
+
 }

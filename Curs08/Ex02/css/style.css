@@ -1,0 +1,42 @@
+@font-face {
+  font-family:'Julius Sans One';
+  src: url(/Curs08/Ex02/css/fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(/Curs08/Ex02/css/fonts/Roboto/Roboto-Black.ttf);
+}
+
+h1{
+  color: red;
+  font-family: 'Julius Sans One';
+  font-size: 35px;
+}
+
+body{
+font-family: 'Roboto';
+}
+
+a{
+  font-weight: bold;
+}
+
+ li {
+  font-family: 'Julius Sans One';
+  line-height: 25px;
+}
+h3{
+  font-weight: bold;
+  color: green;
+  font-size: 28px;
+}
+h2{
+  color: purple;
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: 'Julius Sans One';
+}
+
+p{
+  line-height: 23px;
+}
