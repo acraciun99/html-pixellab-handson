@@ -16,3 +16,44 @@ padding-right: 15px;
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.my-div{
+  width: 500px;
+  height: 102px;
+  background-color: red;
+  border: 1px solid green;
+  margin: 0 auto;
+}
+
+.blue{
+  width: 150px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: blue;
+  padding: 25px 21px 10px 13px;
+}
+
+.green{
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  padding: 13px 19px 13px 19px;
+  background-color: green;
+  margin:0 auto;
+}
+
+.purple{
+  background-color: purple;
+  border: dotted 2px green;
+  border-radius: 40px;
+  padding: 10px 15px 0px 20px;
+}
+
+.transparent{
+  width: 300px;
+  border: 2px solid red;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
