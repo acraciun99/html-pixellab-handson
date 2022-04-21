@@ -8,6 +8,10 @@
   background-color: red;
 }
 
+.box-red:hover{
+  transition:  3s linear;
+}
+
 .box-green {
   background-color: green;
 }
