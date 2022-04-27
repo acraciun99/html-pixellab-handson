@@ -26,6 +26,7 @@
   transition: transform 4s ease-in;
 }
 
+.box-brown:hover{
   transform: rotate(-180deg) scale(0.5) ;
 }
 
