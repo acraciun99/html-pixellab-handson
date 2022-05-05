@@ -255,29 +255,39 @@ a {
 /* footer */
 .footer {
   background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer-contact {
-  margin-bottom: 30px;
+  float: left;
 }
 
 .footer-contact ul {
   display: inline-block;
+  text-transform: lowercase;
+  padding: 20px;
 }
 
 .footer-nav {
-  margin-bottom: 30px;
-}
-
-.footer-nav ul {
   display: inline-block;
-  margin-right: 32px;
+  padding: 20px;
 }
 
-.footer-nav ul li {
-  margin-bottom: 5px;
+.footer-nav li a {
+  display: inherit;
+  padding: 8px 8px;
+  text-transform: lowercase;
+  margin: 0 4px;
 }
 
 .footer-connect {
-  text-align: right;
+  display: inline-block;
 }
+
+.footer-social li {
+  display: inline;
+  font-size: 30px;
+}
+
+/* end-footer */
