@@ -236,3 +236,8 @@ table {
 }
 /* end CSSreset */
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2b2b2b;
+  font-size: 22px;
+}
