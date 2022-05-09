@@ -234,6 +234,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+* {
+  box-sizing: border-box;
+}
 /* end CSSreset */
 
 body {
@@ -255,11 +259,14 @@ a {
 /* footer */
 .footer {
   background-color: #e8e8e8;
+  width: 100%;
+}
+
+.footer-inner {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
 }
 
 .footer-contact {
@@ -283,7 +290,6 @@ a {
 
 .footer-nav {
   display: inline-block;
-  padding: 20px;
 }
 
 .footer-nav li a {
@@ -302,24 +308,42 @@ a {
 }
 
 .footer-newsletter {
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .footer-newsletter h2 {
+  margin-bottom: 10px;
   text-transform: lowercase;
-  padding-bottom: 75px;
 }
 
-.form-newsletter input {
-  display: flex;
-  justify-content: flex-start;
+.footer-newsletter input {
+  border: 1px solid #cccccc;
 }
 
-.footer-social ul li {
+.footer-newsletter .btn {
+  margin-top: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #2b2b2b;
+}
+
+.footer-social {
   display: inline-block;
-  padding: 20x 4px;
-  font-size: 16px;
-  margin: 0 4px;
+  text-align: left;
+}
+
+.footer-social li {
+  display: inline-block;
+}
+
+.footer-social i[class*='fa-'] {
+  font-size: 24px;
+  margin: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 8px;
 }
 
 /* end-footer */
